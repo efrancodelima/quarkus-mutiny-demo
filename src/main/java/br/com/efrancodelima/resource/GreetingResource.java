@@ -1,4 +1,4 @@
-package br.com.efrancodelima;
+package br.com.efrancodelima.resource;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
