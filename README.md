@@ -14,7 +14,7 @@ Coloquei também alguns exemplos de como tratar o erro de cada chamada individua
 
 Clone o projeto.
 
-Execute o comando na raiz do projeto:
+Execute o comando abaixo na raiz do projeto:
 ```
 ./mvnw quarkus:dev
 ```

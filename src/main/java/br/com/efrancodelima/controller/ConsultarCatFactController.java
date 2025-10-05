@@ -1,17 +1,17 @@
-package br.com.efrancodelima.resource;
+package br.com.efrancodelima.controller;
 
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
 
-import br.com.efrancodelima.api.ConsultarCatFactApi;
+import br.com.efrancodelima.controller.contract.ConsultarCatFactContract;
 import br.com.efrancodelima.service.ConsultarCatFactService;
 import io.smallrye.mutiny.Uni;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 
 @RequestScoped
-public class ConsultarCatFactResource implements ConsultarCatFactApi {
+public class ConsultarCatFactController implements ConsultarCatFactContract {
 
     @Inject
     private ConsultarCatFactService service;

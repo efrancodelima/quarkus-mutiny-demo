@@ -1,9 +1,9 @@
-package br.com.efrancodelima.resource;
+package br.com.efrancodelima.controller;
 
 import java.time.Duration;
 import java.time.Instant;
 
-import br.com.efrancodelima.api.ConsultarPostApi;
+import br.com.efrancodelima.controller.contract.ConsultarPostContract;
 import br.com.efrancodelima.dto.PostCommentRequest;
 import br.com.efrancodelima.dto.PostCommentResponse;
 import br.com.efrancodelima.service.ConsultarPostService;
@@ -13,7 +13,7 @@ import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 
 @RequestScoped
-public class ConsultarPostResource implements ConsultarPostApi {
+public class ConsultarPostController implements ConsultarPostContract {
 
     @Inject
     ConsultarPostService service;

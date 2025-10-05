@@ -1,4 +1,4 @@
-package br.com.efrancodelima.api;
+package br.com.efrancodelima.controller.contract;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import jakarta.ws.rs.core.MediaType;
     name = "API da aplicação",
     description = "API contendo endpoints que realizam operações assíncronas usando Quarkus e Mutiny."
 )
-public interface ConsultarCatFactApi {
+public interface ConsultarCatFactContract {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)

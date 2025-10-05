@@ -1,4 +1,4 @@
-package br.com.efrancodelima.api;
+package br.com.efrancodelima.controller.contract;
 
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.media.Content;
@@ -20,7 +20,7 @@ import jakarta.ws.rs.core.MediaType;
     name = "API da aplicação",
     description = "API contendo endpoints que realizam operações assíncronas usando Quarkus e Mutiny."
 )
-public interface ConsultarPostApi {
+public interface ConsultarPostContract {
 
     @POST
     @Produces(MediaType.APPLICATION_JSON)
